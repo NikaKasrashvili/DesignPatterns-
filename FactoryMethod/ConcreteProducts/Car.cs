@@ -6,7 +6,7 @@ class Car : IToy
 {
     public void SomeMethod()
     {
-        Console.WriteLine("Making a toy car!");
+        Console.WriteLine("I'm a car and I can drive!");
     }
 
 }

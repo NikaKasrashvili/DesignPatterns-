@@ -4,7 +4,7 @@ class Doll : IToy
 {
     public void SomeMethod()
     {
-        Console.WriteLine("Making a toy doll!");
+        Console.WriteLine("Hello, Barbie, I'm ken!");
     }
 
 }

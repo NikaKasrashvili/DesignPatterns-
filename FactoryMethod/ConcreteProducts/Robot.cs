@@ -3,6 +3,6 @@ class Robot : IToy
 {
     public void SomeMethod()
     {
-        Console.WriteLine("Making a toy robot!");
+        Console.WriteLine("Hi, my name is R2D2.");
     }
 }
