@@ -2,7 +2,7 @@
 
 class Doll : IToy
 {
-    public void Make()
+    public void SomeMethod()
     {
         Console.WriteLine("Making a toy doll!");
     }

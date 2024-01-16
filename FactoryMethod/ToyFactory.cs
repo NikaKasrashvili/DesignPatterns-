@@ -26,7 +26,7 @@ abstract class ToyFactory
     public void CallFactoryMethod()
     {
         IToy product = CreateToy();
-        product.Make();
+        product.SomeMethod();
 
     }
 }

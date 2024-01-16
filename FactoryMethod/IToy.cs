@@ -9,7 +9,7 @@
 interface IToy
 {
     /// <summary>
-    /// Operation that makes concrete product (Toy)
+    /// Operation of abstract product that will be altered (cahnged) in concrete products.
     /// </summary>
-    void Make();
+    void SomeMethod();
 }
