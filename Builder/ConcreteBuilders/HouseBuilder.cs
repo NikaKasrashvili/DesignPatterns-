@@ -3,12 +3,13 @@
 /// <summary>
 /// Concrete builder class, that follows builder interface.
 /// </summary>
-internal class SimpleHouseBuilder : IHouseBuilder
+internal class HouseBuilder : IHouseBuilder
 {
+    // create an instrance oh House class
     private House _house = new House();
 
     #region constructor
-    public SimpleHouseBuilder()
+    public HouseBuilder()
     {
         Reset();
     }
@@ -18,30 +19,33 @@ internal class SimpleHouseBuilder : IHouseBuilder
     }
     #endregion
 
+    #region implemented Methods
+
     public void BuildBalcony()
     {
-        _house.Add("Balcony has been added");
+        _house.Add("Balcony");
     }
 
     public void SetFlooringType(string flooringType)
     {
-        _house.Add(flooringType);
+        _house.Add($"floor: {flooringType}");
     }
 
     public void SetRoofType(string roofType)
     {
-        _house.Add(roofType);
+        _house.Add($"roof: {roofType}");
     }
 
     public void SetRooms(int rooms)
     {
-        _house.Add(rooms.ToString());
+        _house.Add($"rooms: {rooms}");
     }
 
     public void SetType(string type)
     {
-        _house.Add(type);
+        _house.Add($"type: {type}");
     }
+    #endregion
 
     /// <summary>
     /// method for retrieving made product.
