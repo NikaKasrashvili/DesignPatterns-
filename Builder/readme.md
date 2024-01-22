@@ -2,7 +2,7 @@
 
 The **Builder** is a creational design pattern that allows us step-by-step construction of complex objects. Instead of creating an object directly, you use a builder to guide the construction process. This helps when the object you're building has many parts or configurations, allowing you to create different variations easily.
 
-![Alt text](https://i.makeagif.com/media/10-03-2016/BZ9g6s.gif) 
+![Alt text](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2ef26687-534e-4123-a4ee-b3441d0957df_500x270.gif) 
 
 
 ## :octocat: Usage 
