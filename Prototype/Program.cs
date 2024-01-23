@@ -14,8 +14,8 @@ WarMachine originalWarMachine = new WarMachine("goverment", 120);
 Client client = new Client();
 
 // Creating a new object by cloning the prototype
-ICloneableMachine clonedMark42 = client.CreateShape(originalMark42);
-ICloneableMachine clonedWarMachine = client.CreateShape(originalWarMachine);
+ICloneableMachine clonedMark42 = client.CloneMachine(originalMark42);
+ICloneableMachine clonedWarMachine = client.CloneMachine(originalWarMachine);
 
 
 originalMark42.StartEngine();

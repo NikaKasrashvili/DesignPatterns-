@@ -2,7 +2,7 @@
 
 internal class Client
 {
-    public ICloneableMachine CreateShape(ICloneableMachine prototype)
+    public ICloneableMachine CloneMachine(ICloneableMachine prototype)
     {
         return prototype.Clone();
     }
