@@ -13,7 +13,7 @@ Instead of creating new objects using a constructor, we can clone an existing ob
 
 Let's imagine Tony Stark using the **Prototype** pattern to create different versions of Iron Man costumes. Each version may have slight variations, and rather than starting from scratch each time, Tony can use a prototype to clone and modify as needed.
 
-![Alt text](https://i.gifer.com/7rZa.gif) 
+![Alt text]([https://i.gifer.com/7rZa.gif](https://media4.giphy.com/media/c0NwRD0Vi5Cta/giphy.gif?cid=ecf05e47bfxwfu1z1fe6c3pfwe6v5e3z64cvt962ppx8etmn&ep=v1_gifs_related&rid=giphy.gif&ct=g)) 
 
  To implement all of this, we need to:
  
