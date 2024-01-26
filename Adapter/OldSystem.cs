@@ -1,14 +1,11 @@
 ﻿namespace AdapterDP;
 
 /// <summary>
-///  Existing system with an incompatible interface. <br/>
+///  Existing class with an incompatible <see cref="IOldSystem"/> interface. <br/>
 ///  It's called <strong>  "Adaptee". </strong>
 /// </summary>
-internal class OldSystem
+internal class OldSystem : IOldSystem
 {
-    /// <summary>
-    /// "Request" method from <see cref="OldSystem"/> class.
-    /// </summary>
     public void Request()
     {
         Console.WriteLine("Old System Request");
