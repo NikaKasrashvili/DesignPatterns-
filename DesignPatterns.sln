@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prot
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural Design Patterns", "Structural Design Patterns", "{30F61AF8-4DAB-4DAF-B044-13A386E7EC3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{3D69FBC2-10DC-4EE3-BC5C-154DFAE584FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterDP", "Adapter\AdapterDP.csproj", "{3D69FBC2-10DC-4EE3-BC5C-154DFAE584FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

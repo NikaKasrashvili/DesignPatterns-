@@ -1,4 +1,4 @@
-﻿namespace Adapter;
+﻿namespace AdapterDP;
 
 /// <summary>
 ///  Existing system with an incompatible interface. <br/>

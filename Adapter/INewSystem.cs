@@ -1,4 +1,4 @@
-﻿namespace Adapter;
+﻿namespace AdapterDP;
 
 /// <summary>
 /// Interface that declares methods of new system.

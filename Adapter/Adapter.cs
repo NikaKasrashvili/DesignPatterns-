@@ -1,21 +1,22 @@
-﻿namespace Adapter;
+﻿namespace AdapterDP;
 
 /// <summary>
-/// <strong>Adapter</strong> class that makes <see cref="OldSystem"/> compatible with <see cref="INewSystem"/>.
+/// <strong>Adapter</strong> class that makes <see cref="OldSystem"/> 
+/// compatible with <see cref="INewSystem"/> interface.
 /// </summary>
 internal class Adapter : INewSystem
 {
-    private OldSystem? _oldSystem;
+    private readonly OldSystem? _oldSystem;
 
     public Adapter(OldSystem oldSystem)
     {
         _oldSystem = oldSystem;
     }
 
-    //new system method interface implementation
+    //InewSystem interface implementation.
     public void NewRequest()
     {
         _oldSystem?.Request();
     }
-  
+
 }
