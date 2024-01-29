@@ -12,14 +12,25 @@ IMessageSender smsSender = new SmsSender();
 
 AbstractMessage abstraction;
 
-// send text via email.
-abstraction = new ExtendedMessages(emailSender);    
-client.ClientCode(abstraction, "That's one small step for man, one giant leap for mankind.");
+string shortMessage = "Boooo!";
+string longMessage = "That's one small step for man, one giant leap for mankind.\n";
+
+// send short and long text via email.
+abstraction = new ShortMessages(emailSender);    
+client.ClientCode(abstraction, shortMessage);
+
+abstraction = new LongMessages(emailSender);
+client.ClientCode(abstraction, longMessage);
 
 
 // send text via sms.
-abstraction = new ExtendedMessages(smsSender);
-client.ClientCode(abstraction, "Booo!\n");
+abstraction = new ShortMessages(smsSender);
+client.ClientCode(abstraction, shortMessage);
+
+abstraction = new LongMessages(smsSender);
+client.ClientCode(abstraction, longMessage);
 
 
 
+//booo!
+Console.WriteLine("__________        .__    .___              \r\n\\______   \\_______|__| __| _/ ____   ____  \r\n |    |  _/\\_  __ \\  |/ __ | / ___\\_/ __ \\ \r\n |    |   \\ |  | \\/  / /_/ |/ /_/  >  ___/ \r\n |______  / |__|  |__\\____ |\\___  / \\___  >\r\n        \\/                \\/_____/      \\/");
