@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterDP", "Adapter\Adapte
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgeDP", "BridgeDP\BridgeDP.csproj", "{3001E7F9-D165-4B1C-9C9A-6ECE4699DEAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeDP", "CompositeDP\CompositeDP.csproj", "{77FF336C-B010-4BA5-83E1-FAC06B1B713E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositeDP", "CompositeDP\CompositeDP.csproj", "{77FF336C-B010-4BA5-83E1-FAC06B1B713E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
