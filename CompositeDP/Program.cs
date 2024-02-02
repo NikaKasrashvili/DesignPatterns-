@@ -10,7 +10,8 @@ IEmployee employee1 = new IndividualEmployee("Nika", 29, "Backend developer");
 IEmployee employee2 = new IndividualEmployee("Beka", 25, "Senior everything developer");
 
 // Step 2:
-// Creating a department (development) and adding individual employees to it
+// Creating a department (development) and
+// adding individual employees to it
 Department developmentDepartment = new Department("Development team department");
 
 developmentDepartment.AddEmployee(employee1);
@@ -34,14 +35,16 @@ developmentDepartment.AddEmployee(subDepartment);
 
 
 // Final step: Creating COmpany!
-// Creating a company department and adding the development and PM departments to it
+// Creating a company department
+// and adding the development
+// and PM departments into it
 var company = new Department("Company");
 company.AddEmployee(developmentDepartment);
 company.AddEmployee(ProjectManagementDepartment);
 
 // Displaying details of the company department,
-// which recursively displays details of all employees and sub-departments
-
+// which recursively displays details
+// of all employees and sub-departments
 company.DisplayDetails();
 
 
