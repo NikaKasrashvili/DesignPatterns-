@@ -13,7 +13,7 @@ namespace DecoratorDP.Decorators
 
         public override string GetDescription()
         {
-            return _component.GetDescription() + "plus pepperoni";
+            return _component.GetDescription() + ", plus pepperoni";
         }
 
         public override double GetCost()
